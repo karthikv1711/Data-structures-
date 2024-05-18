@@ -55,7 +55,7 @@ void delete()
 
 void insert(int item)
 {
-	if(rear == SIZE-1)
+	if((rear+1)SIZE == front)
 		printf("Queue is full\n");
 	else
 	{	if(front == -1)
