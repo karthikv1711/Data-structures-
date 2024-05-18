@@ -5,14 +5,12 @@
 void insert(int);
 void delete();
 void display();
-/*int front=-1;
-int rear=-1;*/
-int front,rear;
+int front=-1;
+int rear=-1;
 int queue[SIZE];
 int main()
 {
 	int item,choice;
-	front=rear=-1;
 	while(1)
 	{
 		printf(" \n MENU \n");
